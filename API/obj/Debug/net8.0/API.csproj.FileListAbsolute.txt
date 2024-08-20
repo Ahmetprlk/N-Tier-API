@@ -142,3 +142,5 @@ C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\API\obj\Debug\net8.0\refint\API.d
 C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\API\obj\Debug\net8.0\API.pdb
 C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\API\obj\Debug\net8.0\API.sourcelink.json
+C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
