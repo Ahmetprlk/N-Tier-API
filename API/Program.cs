@@ -1,6 +1,13 @@
+using API.Filters;
+using API.Middlewares;
+using API.Modules;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
 using Repository;
+using Service.Mappings;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +29,12 @@ builder.Services.AddDbContext<AppDbContext>(x =>
         option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
     });
 });
+builder.Services.AddScoped(typeof(NotFounFilter<>));
+
+builder.Services.AddAutoMapper(typeof(MapProfile));
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder=>
+containerBuilder.RegisterModule(new RepoServiceModule()));
 
 
 var app = builder.Build();
@@ -33,6 +46,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCustomException();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

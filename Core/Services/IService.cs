@@ -16,6 +16,8 @@ namespace Core.Services
         void Update(T entity);
         void ChangesStatus(T entity);
         Task AddAsync(T entity);
+        
+        Task<bool> AnyAsync(Expression<Func<T,bool>> expression);
 
     }
 }
