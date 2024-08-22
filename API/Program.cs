@@ -48,7 +48,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCustomException();
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
