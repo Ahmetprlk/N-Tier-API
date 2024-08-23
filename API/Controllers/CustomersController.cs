@@ -1,6 +1,7 @@
 ﻿using API.Filters;
 using AutoMapper;
 using Core.DTOs;
+using Core.DTOs.UpdateDtos;
 using Core.Models;
 using Core.Services;
 using Microsoft.AspNetCore.Http;
@@ -54,6 +55,22 @@ namespace API.Controllers
             entity.CreatedBy = id;
 
             var customer = await service.AddAsync(entity);
+            var customerResponseDto = mapper.Map<CustomerDto>(customerdto);
+
+            return CreateActionResult(CustomResponseDto<CustomerDto>.Success(201, customerdto));
+
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(CustomerUpdateDto customerDto)
+        {
+            int userId = 1;
+            var current = await service.GetByIDAsync(customerDto.Id);
+            current.UpdatedBy = userId;
+            current.Name = customerDto.Name;
+            service.Update(current);
+
+            return CreateActionResult(CustomResponseDto<NoContentDto>.Success(204));
 
         }
     }

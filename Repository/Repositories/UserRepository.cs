@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Repositories
 {
-    public class UserRepository(AppDbContext context):GenericRepository<User> ,IUserRepository
+    public class UserRepository(AppDbContext context):GenericRepository<User>(context) ,IUserRepository
     {
     }
 }

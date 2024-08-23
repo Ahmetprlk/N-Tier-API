@@ -20,7 +20,7 @@ namespace API.Modules
             builder.RegisterGeneric(typeof(Service<>)).As(typeof(IService<>)).InstancePerLifetimeScope();
 
             builder.RegisterType<UnitOfWorks>().As<IUnitOfWorks>();
-
+            builder.RegisterType<TokenHandler>().As<ITokenHandler>();
 
             var  apiAssembly = Assembly.GetExecutingAssembly();
             var repositoryAssembly = Assembly.GetAssembly(typeof(AppDbContext));
@@ -32,6 +32,8 @@ namespace API.Modules
             builder.RegisterAssemblyTypes(apiAssembly, repositoryAssembly, serviceAssembly)
                 .Where(x => x.Name.EndsWith("Service"))
                 .AsImplementedInterfaces().InstancePerLifetimeScope();
+
+            
         }
     }
 }

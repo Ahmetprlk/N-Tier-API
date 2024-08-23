@@ -12,8 +12,10 @@ namespace Core.DTOs
         public string Name { get; set; }
         public int DepartmanID { get; set; }
         public int GroupId { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }    
 
-        public Department Department { get; set; }
-        public Group Group { get; set; }
+        public Department? Department { get; set; }
+        public Group? Group { get; set; }
     }
 }

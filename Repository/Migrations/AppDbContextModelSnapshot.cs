@@ -326,6 +326,10 @@ namespace Repository.Migrations
                     b.Property<int>("DepartmentID")
                         .HasColumnType("int");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("GroupId")
                         .HasColumnType("int");
 

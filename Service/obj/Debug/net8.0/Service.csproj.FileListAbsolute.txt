@@ -10,3 +10,9 @@ C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\obj\Debug\net8.0\Service.
 C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\obj\Debug\net8.0\refint\Service.dll
 C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\obj\Debug\net8.0\Service.pdb
 C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\obj\Debug\net8.0\ref\Service.dll
+C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\obj\Debug\net8.0\Service.sourcelink.json
+C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\bin\Debug\net8.0\Core.dll
+C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\bin\Debug\net8.0\Repository.dll
+C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\bin\Debug\net8.0\Core.pdb
+C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\bin\Debug\net8.0\Repository.pdb
+C:\Users\HP\OneDrive\Masaüstü\N-Tier\API\API\Service\obj\Debug\net8.0\Service.csproj.Up2Date

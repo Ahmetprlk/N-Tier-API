@@ -22,12 +22,13 @@ namespace Service.Services
             _unitOfWorks = unitOfWorks;
         }
 
-        public async Task AddAsync(T entity)
+        public virtual async Task<T> AddAsync(T entity)
         {
             entity.CreatedTime = DateTime.Now;
             entity.UpdatedTime = DateTime.Now;
             await _repository.AddAsync(entity);
             await _unitOfWorks.CommitAsync();
+            return entity;
         }
 
         public async Task<bool> AnyAsync(Expression<Func<T, bool>> expression)

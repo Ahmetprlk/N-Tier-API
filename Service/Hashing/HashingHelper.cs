@@ -16,7 +16,7 @@ namespace Service.Hashing
                 passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
             }
         }
-        public bool verifyPassword(string password,  byte[] passwordHash,  byte[] passwordSalt)
+        public static bool verifyPassword(string password,  byte[] passwordHash,  byte[] passwordSalt)
         {
             using (var hmac = new System.Security.Cryptography.HMACSHA512(passwordSalt))
             {
@@ -24,13 +24,14 @@ namespace Service.Hashing
 
                 for (int i = 0; i < computeHash.Length; i++)
                 {
-                    if(computeHash[i] != passwordHash[i])
+                    if (computeHash[i] != passwordHash[i])
                     {
                         return false;
                     }
-                        
+
                 }
-            return true;
+                return true;
+            }
         }
     }
 }

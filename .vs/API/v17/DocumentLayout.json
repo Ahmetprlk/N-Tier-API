@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BC27D7D-573E-466C-A922-2D1C1A983F36}|API\\API.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC27D7D-573E-466C-A922-2D1C1A983F36}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7F65796-DD15-4945-A1B9-03CBEB051219}|Core\\Core.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F65796-DD15-4945-A1B9-03CBEB051219}|Core\\Core.csproj|solutionrelative:core\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BC27D7D-573E-466C-A922-2D1C1A983F36}|API\\API.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\api\\filters\\notfounfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC27D7D-573E-466C-A922-2D1C1A983F36}|API\\API.csproj|solutionrelative:api\\filters\\notfounfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BC27D7D-573E-466C-A922-2D1C1A983F36}|API\\API.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC27D7D-573E-466C-A922-2D1C1A983F36}|API\\API.csproj|solutionrelative:api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F31C28AB-EB8B-4066-9F4C-966860A01047}|Service\\Service.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\service\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F31C28AB-EB8B-4066-9F4C-966860A01047}|Service\\Service.csproj|solutionrelative:service\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F31C28AB-EB8B-4066-9F4C-966860A01047}|Service\\Service.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F31C28AB-EB8B-4066-9F4C-966860A01047}|Service\\Service.csproj|solutionrelative:service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7F65796-DD15-4945-A1B9-03CBEB051219}|Core\\Core.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\core\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7F65796-DD15-4945-A1B9-03CBEB051219}|Core\\Core.csproj|solutionrelative:core\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F31C28AB-EB8B-4066-9F4C-966860A01047}|Service\\Service.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\service\\hashing\\hashinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F31C28AB-EB8B-4066-9F4C-966860A01047}|Service\\Service.csproj|solutionrelative:service\\hashing\\hashinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F65796-DD15-4945-A1B9-03CBEB051219}|Core\\Core.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F65796-DD15-4945-A1B9-03CBEB051219}|Core\\Core.csproj|solutionrelative:core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC27D7D-573E-466C-A922-2D1C1A983F36}|API\\API.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\api\\modules\\reposervicemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC27D7D-573E-466C-A922-2D1C1A983F36}|API\\API.csproj|solutionrelative:api\\modules\\reposervicemodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F31C28AB-EB8B-4066-9F4C-966860A01047}|Service\\Service.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\service\\services\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F31C28AB-EB8B-4066-9F4C-966860A01047}|Service\\Service.csproj|solutionrelative:service\\services\\tokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F65796-DD15-4945-A1B9-03CBEB051219}|Core\\Core.csproj|c:\\users\\hp\\onedrive\\masa\u00FCst\u00FC\\n-tier\\api\\api\\core\\services\\itokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F65796-DD15-4945-A1B9-03CBEB051219}|Core\\Core.csproj|solutionrelative:core\\services\\itokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,53 +79,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAAADAAAAAZAAAA",
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Core\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Core\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\UserDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T16:24:16.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Service\\Services\\Service.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\Service.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Service\\Services\\Service.cs",
-              "RelativeToolTip": "Service\\Services\\Service.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T16:19:21.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Core\\Services\\IService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\IService.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Core\\Services\\IService.cs",
-              "RelativeToolTip": "Core\\Services\\IService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T16:19:06.917Z",
+              "WhenOpened": "2024-08-23T13:34:44.832Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NotFounFilter.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\API\\Filters\\NotFounFilter.cs",
-              "RelativeDocumentMoniker": "API\\Filters\\NotFounFilter.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\API\\Filters\\NotFounFilter.cs",
-              "RelativeToolTip": "API\\Filters\\NotFounFilter.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAUwCIAAAAwAAAA",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T16:11:37.461Z",
+              "WhenOpened": "2024-08-23T13:27:46.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HashingHelper.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Service\\Hashing\\HashingHelper.cs",
+              "RelativeDocumentMoniker": "Service\\Hashing\\HashingHelper.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Service\\Hashing\\HashingHelper.cs",
+              "RelativeToolTip": "Service\\Hashing\\HashingHelper.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:22:48.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Service\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Service\\Services\\UserService.cs",
+              "RelativeToolTip": "Service\\Services\\UserService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAA+wDEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:17:42.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Core\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Core\\Services\\IUserService.cs",
+              "RelativeToolTip": "Core\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:16:33.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepoServiceModule.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\API\\Modules\\RepoServiceModule.cs",
+              "RelativeDocumentMoniker": "API\\Modules\\RepoServiceModule.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\API\\Modules\\RepoServiceModule.cs",
+              "RelativeToolTip": "API\\Modules\\RepoServiceModule.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:15:29.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Service\\Services\\TokenHandler.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\TokenHandler.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Service\\Services\\TokenHandler.cs",
+              "RelativeToolTip": "Service\\Services\\TokenHandler.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAWwEAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:55:43.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Core\\Services\\ITokenHandler.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\ITokenHandler.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Masa\u00FCst\u00FC\\N-Tier\\API\\API\\Core\\Services\\ITokenHandler.cs",
+              "RelativeToolTip": "Core\\Services\\ITokenHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:53:00.176Z",
               "EditorCaption": ""
             }
           ]
