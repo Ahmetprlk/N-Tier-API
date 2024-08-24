@@ -23,6 +23,7 @@ namespace Repository.Repositories
 
         public async Task AddAsync(T entity)
         {
+            entity.Status=true;
             await dbSet.AddAsync(entity);
         }
 

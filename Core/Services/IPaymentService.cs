@@ -9,6 +9,6 @@ namespace Core.Services
 {
     public interface IPaymentService : IService<Payment>
     {
-
+        void MakePayment(Payment payment);
     }
 }

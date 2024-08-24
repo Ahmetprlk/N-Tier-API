@@ -10,6 +10,6 @@ namespace Core.DTOs
     public class GrroupDto : BaseDTO
     {
         public string Name { get; set; }
-        public List<User> Users { get; set; }
+        public List<User>? Users { get; set; }
     }
 }

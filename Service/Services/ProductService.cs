@@ -12,8 +12,16 @@ namespace Service.Services
 {
     public class ProductService : Service<Product>, IProductService
     {
+        private readonly IProductRepository _repository;
         public ProductService(IGenericRepository<Product> repository, IUnitOfWorks unitOfWorks) : base(repository, unitOfWorks)
         {
+        }
+
+        public async Task    BuyProduct(Product product)
+        {
+            var current = await _repository.GetByIDAsync(product.ID);
+            current.Stock += product.Stock;
+            Update(current);
         }
     }
 }

@@ -10,6 +10,6 @@ namespace Core.DTOs
     public class RoleDto : BaseDTO
     {
         public string Name { get; set; }
-        public ICollection<GroupInRole> GroupInRoles { get; set; }
+        public ICollection<GroupInRole>? GroupInRoles { get; set; }
     }
 }

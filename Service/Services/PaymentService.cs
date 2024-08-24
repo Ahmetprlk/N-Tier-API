@@ -15,5 +15,10 @@ namespace Service.Services
         public PaymentService(IGenericRepository<Payment> repository, IUnitOfWorks unitOfWorks) : base(repository, unitOfWorks)
         {
         }
+
+        public void MakePayment(Payment payment)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

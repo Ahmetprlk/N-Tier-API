@@ -14,7 +14,7 @@ namespace Core.DTOs
         public int Quantity { get; set; }
         public double UnitPrice { get; set; }
         public double TotalPrice { get; set; }
-        public Customer Customer { get; set; }
-        public Product Product { get; set; }
+        public Customer? Customer { get; set; }
+        public Product? Product { get; set; }
     }
 }

@@ -11,6 +11,6 @@ namespace Core.DTOs
     {
         public int CustomerID { get; set; }
         public double Amount { get; set; }
-        public CustomerDto Customer { get; set; }
+        public CustomerDto? Customer { get; set; }
     }
 }
