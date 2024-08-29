@@ -50,7 +50,7 @@ namespace API.Controllers
         [HttpPost]
         public async Task<IActionResult> Save(DepartmantDto departmentdto)
         {
-            int id = 1;
+            int id = GetUserFromToken();
             var entity = mapper.Map<Department>(departmentdto);
             entity.UpdatedBy = id;
             entity.CreatedBy = id;
